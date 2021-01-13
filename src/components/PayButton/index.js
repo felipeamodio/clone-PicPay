@@ -16,7 +16,7 @@ export default function PayButton({onPress, focused}){
                            size={30} 
                            color={focused ? '#000000' : '#FFFFFF'} />
 
-            <Label style={{color: '#FFFFFF'}}>Pagar</Label>
+            <Label>Pagar</Label>
         </Button>
     </TouchableWithoutFeedback>
     );

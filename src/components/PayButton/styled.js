@@ -12,4 +12,5 @@ export const Button = styled(LinearGradient)`
 
 export const Label = styled.Text`
     font-size: 12;
+    color: #FFFFFF;
 `;
