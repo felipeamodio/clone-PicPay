@@ -33,7 +33,7 @@ const icons = { //const p/ puxar os icones, mais fácil desse modo
 
 export default function Navigation(){
     return(
-        <Tab.Navigator screenOptions={({route, navigation}) => ({ //quando coloca ({}) é pq estamos passando q vai retornar um objeto
+        <Tab.Navigator initialRouteName="Wallet" screenOptions={({route, navigation}) => ({ //quando coloca ({}) é pq estamos passando q vai retornar um objeto
             tabBarIcon: ({color, size, focused}) => {  //o color é a cor q muda quando vamos trocando as abas
                 if(route.name === 'Pay'){
                     return (
