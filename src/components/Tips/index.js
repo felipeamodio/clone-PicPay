@@ -11,35 +11,35 @@ const items = [
     {
         key: String(Math.random()),
         img: img8,
-        title: 'Pague suas contas sem sair de casa',
+        title: '210% do CDI com liquidez diária',
         bgColor: '#172C4A',
     },
 
     {
         key: String(Math.random()),
         img: img9,
-        title: 'Pague suas contas sem sair de casa',
+        title: 'Pague suas estando em qualquer lugar',
         bgColor: '#6A0159',
     },
 
     {
         key: String(Math.random()),
         img: img10,
-        title: 'Pague suas contas sem sair de casa',
+        title: 'Cobre um amigo',
         bgColor: '#4139C8',
     },
 
     {
         key: String(Math.random()),
         img: img11,
-        title: 'Pague suas contas sem sair de casa',
+        title: 'Você sempre seguro',
         bgColor: '#00AB4B',
     },
 
     {
         key: String(Math.random()),
         img: img12,
-        title: 'Pague suas contas sem sair de casa',
+        title: 'Cadastre sua chave pix no PicPay',
         bgColor: '#BA2F76',
     },
 ];
