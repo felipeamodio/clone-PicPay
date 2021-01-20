@@ -18,8 +18,8 @@ export const MenuBar = styled.View`
 
 export const All = styled.Text`
     font-size: 20px;
-    font-weight: 600;
-    color: #FFFFFF;
+    font-weight: bold;
+    color: #10C86E;
     text-decoration-line: underline;
 `; 
 

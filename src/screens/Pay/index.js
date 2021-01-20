@@ -11,7 +11,7 @@ import {Header,
         Img,
         Label,
         Subscription,
-        OptionContainer
+        OptionContainer,
     } from './styles';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 import { Wrapper } from '../Wallet/styles';
@@ -82,7 +82,7 @@ export default function Pay(){
                      <Img source={item.img} />
                      <Label>{item.label}</Label>
                      </OptionContainer>
-                     <Subscription>{item.sub}</Subscription>
+                    <Subscription>{item.sub}</Subscription>                     
                  </Option>
                 ))}
             </Container>
