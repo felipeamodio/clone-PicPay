@@ -1,5 +1,4 @@
 import React from 'react';
-import {ScrollView} from 'react-native';
 import {Header, 
         MenuBar, 
         All, 
@@ -10,7 +9,9 @@ import {Header,
         OptionTitle,
         Option,
         Img,
-        Label
+        Label,
+        Subscription,
+        OptionContainer
     } from './styles';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 import { Wrapper } from '../Wallet/styles';
@@ -26,31 +27,36 @@ const items = [
     {
         key: String(Math.random()),
         img: img1,
-        label: 'Pagar conta'
+        label: 'Pagar conta',
+        sub: 'Pague sua conta de luz, água, boletos bancários, etc.'
     },
 
     {
         key: String(Math.random()),
         img: img2,
-        label: 'Pagar uma pessoa'
+        label: 'Pagar uma pessoa',
+        sub: 'Pague todos os seus amigos que também estão no PicPay.'
     },
 
     {
         key: String(Math.random()),
         img: img3,
-        label: 'Recarda de celular'
+        label: 'Recarda de celular',
+        sub: 'Vivo, Claro, Tim, Oi, Nextel, Algar, etc.'
     },
 
     {
         key: String(Math.random()),
         img: img4,
-        label: 'Cobrar'
+        label: 'Cobrar',
+        sub: 'Cobre um amigo.'
     },
 
     {
         key: String(Math.random()),
         img: img5,
-        label: 'Pagar com pix'
+        label: 'PIX',
+        sub: 'Pagar com pix.'
     },
 ]
 
@@ -67,12 +73,18 @@ export default function Pay(){
                 <Local>Locais</Local>
                 <Store>Store</Store>
             </MenuBar>
+
             <Container>
                 <OptionTitle>SERVIÇOS</OptionTitle>
-                <Option>
-                    <Img source={img1} />
-                    <Label>Pagar conta</Label>
-                </Option>
+                {items.map((item) => (
+                    <Option>
+                    <OptionContainer key={item.key}>
+                     <Img source={item.img} />
+                     <Label>{item.label}</Label>
+                     </OptionContainer>
+                     <Subscription>{item.sub}</Subscription>
+                 </Option>
+                ))}
             </Container>
    </Wrapper>   
     </>
