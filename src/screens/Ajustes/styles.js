@@ -19,6 +19,7 @@ export const HeaderContainer = styled.View`
 export const Img = styled.Image`
     width: 70px;
     height: 70px;
+    margin-top: 18px;
 `;
 
 export const User = styled.Text`
@@ -49,4 +50,59 @@ export const Icon = styled.TouchableOpacity`
 export const LinkTitle = styled.Text`
     color: #0DB060;
     font-size: 15px;
+`;
+
+export const Body = styled.ScrollView``;
+
+export const Title = styled.Text`
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+`;
+
+export const MenuContainer = styled.TouchableOpacity`
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    background: #1C1C1E;
+    height: 40px;
+`;
+
+export const MenuDesc = styled.View`
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const MenuTitle = styled.Text`
+    color: #FFFFFF;
+    font-size: 18px;
+`;
+
+export const MenuInfo = styled.Text`
+    color: #FFFFFF;
+    font-size: 15px;
+`;
+
+export const GetOutButton = styled.TouchableOpacity`
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    background: #1C1C1E;
+    height: 40px;
+`;
+
+export const Btn = styled.Text`
+    font-size: 18px;
+    color: #FF0000;
+`;
+
+export const Bottom = styled.View`
+    margin-top: 40px;
 `;
