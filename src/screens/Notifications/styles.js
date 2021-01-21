@@ -40,7 +40,7 @@ export const BodyContainer = styled.TouchableOpacity`
     background: #1C1C1C;
     border-radius: 8px;
     width: 370px;
-    margin-top: 5px;
+    margin-top: 8px;
 `;
 
 export const Message = styled.Text`
