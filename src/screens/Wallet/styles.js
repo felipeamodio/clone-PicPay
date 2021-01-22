@@ -157,3 +157,7 @@ export const UseTicketLabel = styled.Text`
     margin-left: 15px;
     text-decoration-line: underline;
 `;
+
+export const Bottom = styled.View`
+    margin-top: 40px;
+`;

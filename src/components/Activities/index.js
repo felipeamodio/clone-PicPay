@@ -46,7 +46,7 @@ export default function Activities(){
                         <Divider />
 
                             <Feather name="lock" size={14} color="#FFFFFF" />
-                            <Date>há 2 anos</Date>
+                            <Date>há 2 dias</Date>
                     </Details>
 
                     <Actions>

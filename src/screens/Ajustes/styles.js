@@ -10,7 +10,7 @@ export const Header = styled.View`
 `;
 
 export const HeaderContainer = styled.View`
-    background: #F8F8FF;
+    background: #1E222B;
     flex: 1;
     align-items: center;
     justify-content: center;
@@ -23,9 +23,9 @@ export const Img = styled.Image`
 `;
 
 export const User = styled.Text`
-    color: #000000;
+    color: #FFFFFF;
     font-size: 27px;
-    margin-top: 5px;
+    margin-top: 12px;
     font-weight: bold;
 `;
 
@@ -50,6 +50,7 @@ export const Icon = styled.TouchableOpacity`
 export const LinkTitle = styled.Text`
     color: #0DB060;
     font-size: 15px;
+    margin-left: 20px;
 `;
 
 export const Body = styled.ScrollView``;
@@ -68,7 +69,7 @@ export const MenuContainer = styled.TouchableOpacity`
     padding: 0 16px;
     align-items: center;
     justify-content: space-between;
-    background: #1C1C1E;
+    background: #1E222B;
     height: 40px;
 `;
 
@@ -94,7 +95,7 @@ export const GetOutButton = styled.TouchableOpacity`
     padding: 0 16px;
     align-items: center;
     justify-content: space-between;
-    background: #1C1C1E;
+    background: #1E222B;
     height: 40px;
 `;
 

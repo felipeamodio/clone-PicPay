@@ -32,12 +32,12 @@ export const MenuBar = styled.Text`
 `;
 
 export const Body = styled.View`
-    margin-top: 20px;
+    margin-top: 6px;
 `;
 
 export const BodyContainer = styled.TouchableOpacity`
     padding: 3px 14px;
-    background: #1C1C1C;
+    background: #1E222B;
     border-radius: 8px;
     width: 370px;
     margin-top: 8px;

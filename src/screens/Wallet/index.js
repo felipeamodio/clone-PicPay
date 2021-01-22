@@ -26,7 +26,8 @@ import {Wrapper,
         CardBody,
         UseTicketButton,
         UseTicketLabel,
-        UseTicketContainer
+        UseTicketContainer,
+        Bottom
     } from './styles';
 import {Feather, MaterialCommunityIcons, FontAwesome, AntDesign} from '@expo/vector-icons';
 
@@ -55,7 +56,7 @@ export default function Wallet(){
 
                     <BalanceContainer>
                         <Value>
-                            R$ <Bold>{isVisible ? '0,00' : '----'}</Bold>
+                            R$ <Bold>{isVisible ? '1093,75' : '----'}</Bold>
                         </Value>
 
                         <EyeButton onPress={handleToggleVisibility}>
@@ -125,6 +126,7 @@ export default function Wallet(){
                     <UseTicketLabel>Usar código promocional</UseTicketLabel>
                 </UseTicketButton>
                 </UseTicketContainer>
+                <Bottom />
             </PaymentMethods>
             </ScrollView>
         </Wrapper>
