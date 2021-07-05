@@ -8,6 +8,12 @@ Neste projeto, aprendi melhor na prática como utilizar o **Styled-Components** 
 
 Abaixo está a playslist utilizada como base para o projeto 👇🏽
 
-<a href="{https://www.youtube.com/watch?v=0CraBZHejKI&list=PLPXWI3llyMiIfgu7p65MxdEKrplFbGbMg}" title="Playlist Clone PicPay">Playlist do clone do PicPay</a>
+<a href="https://www.youtube.com/watch?v=0CraBZHejKI&list=PLPXWI3llyMiIfgu7p65MxdEKrplFbGbMg" title="Playlist Clone PicPay">Playlist do clone do PicPay</a>
+
+
+
+## Apresentação do App
+
+![Gif PicPay](https://github.com/felipeamodio/clone-PicPay/blob/main/PicPay.gif)
 
 
